@@ -4,10 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "node test.js",
+    "start": "node index.js",
+    "prepare": "husky"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "SandaruJ",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^9.1.5",
+    "lint": "^0.8.19"
+  }
 }
