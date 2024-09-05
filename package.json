@@ -2,17 +2,19 @@
   "name": "node-setup",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "dist": "npx tsc",
-    "dev": "nodemon src/index.ts",
-    "start": "node dist/index.js",
+    "dev": "nodemon src/server.ts",
+    "start": "node dist/server.js",
     "prepare": "husky"
   },
   "keywords": [],
   "author": "SandaruJ",
   "license": "ISC",
   "devDependencies": {
+    "@commitlint/cli": "^19.4.1",
+    "@commitlint/config-conventional": "^19.4.1",
     "@types/node": "^22.5.4",
     "husky": "^9.1.5",
     "lint": "^0.8.19",
